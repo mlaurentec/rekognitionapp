@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             Log.i("info_deployment", "No seleccionado")
         }
     }
-
+// comentario agregado
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
